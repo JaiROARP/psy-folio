@@ -1,0 +1,19 @@
+body {
+    margin: 2cm;
+    padding: 0;
+    display: flex;
+}
+
+span {
+    color: red;
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: 'Press Start 2P', system-ui;
+    text-shadow: 2px 2px 4px rgba(1, 1, 1, 5);
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: 'Press Start 2P', system-ui;
+    line-height: 2;    
+}
