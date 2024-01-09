@@ -1,0 +1,77 @@
+* {
+    cursor: url('../css/8-bit-sword.png'), auto;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-container {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.heroPic {
+    width: 100vw;
+    height: calc(100vh);
+    object-fit: cover;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;    
+
+    width: 100%;
+    height: 100%;
+    background-image: url('../css/8bit-background.jpg');
+    background-size: cover; /* Cubrir todo el cuerpo */
+    background-position: center; /* Centrar la imagen de fondo */
+    
+
+
+}
+
+#sec-one {
+    width: 100%;
+    height: auto; /* 100% del alto del viewport */
+    margin: 0;
+    padding: 0;
+    /* Otros estilos que desees agregar */
+}
+
+
+
+span {
+    color: red;
+    font-weight: bold;
+    font-size: 5rem;
+    font-family: 'Press Start 2P', system-ui;
+    text-shadow: 2px 2px 4px rgba(1, 1, 1, 5);
+}
+
+.container-fluid {
+    background-color: rgba(0, 0, 0, 0.8); /* 0.8 es la opacidad, puedes ajustarlo según tus necesidades */
+    border-radius: 10px; /* Opcional: Añade esquinas redondeadas para un mejor aspecto */
+    color: #ffffff;
+    width: 100%; /* Ajusta según tus necesidades */
+    max-width: 100%;
+    overflow: hidden;   
+  }
+
+h1 {
+    font-size: 2rem;
+    font-family: 'Press Start 2P', system-ui;
+    line-height: 2;
+    color: #ffffff;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    border-bottom: solid rgb(0, 128, 32) 2px;
+    border-top: solid rgb(255, 0, 140);
+    width: 100%;
+    max-width: 25rem;
+    height: auto; 
+}
+
